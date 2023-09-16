@@ -313,7 +313,10 @@ address {
   justify-content: center;
 }
 
-.social-icons:hover,
+.social-icons:hover {
+  background-color: #404bbf;
+}
+
 .social-icons:focus {
   background-color: #404bbf;
 }
