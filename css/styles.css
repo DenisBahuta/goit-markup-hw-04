@@ -67,9 +67,6 @@ span {
 .nav-menu {
   display: flex;
   align-items: center;
-  position: relative;
-  color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-logo {
@@ -113,13 +110,13 @@ span {
   flex-grow: 1;
   justify-content: center;
   gap: 40px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link {
   padding: 24px 0;
   color: #434455;
   font-style: normal;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link:hover,
