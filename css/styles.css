@@ -58,6 +58,7 @@ body {
 
 .header-inner {
   display: flex;
+  position: relative;
 }
 
 span {
@@ -67,7 +68,6 @@ span {
 .nav-menu {
   display: flex;
   align-items: center;
-  position: relative;
 }
 
 .header-logo {
