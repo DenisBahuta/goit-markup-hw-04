@@ -218,6 +218,16 @@ address {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
+.advantages-item-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .section-two-subtitle {
   font-size: 20px;
   font-weight: 500;
