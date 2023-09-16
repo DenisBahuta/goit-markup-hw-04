@@ -67,6 +67,9 @@ span {
 .nav-menu {
   display: flex;
   align-items: center;
+  position: relative;
+  color: #404bbf;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-logo {
@@ -80,24 +83,13 @@ span {
   margin-right: 76px;
 }
 
-.header-logo::after {
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-}
-
 .header-logo:active {
   color: #404bbf;
-  content: "";
 }
 
 .nav-list {
   display: flex;
   gap: 40px;
-  color: #404bbf;
 }
 
 .nav-link {
@@ -121,13 +113,13 @@ span {
   flex-grow: 1;
   justify-content: center;
   gap: 40px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link {
   padding: 24px 0;
   color: #434455;
   font-style: normal;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link:hover,
