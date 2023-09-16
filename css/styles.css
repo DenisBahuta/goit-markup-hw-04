@@ -60,7 +60,7 @@ body {
   display: flex;
 }
 
-.header-inner::after {
+.header-inner .class::after {
   content: "";
   position: absolute;
   left: 0;
