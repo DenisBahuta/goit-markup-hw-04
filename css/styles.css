@@ -439,3 +439,32 @@ address {
   color: #ffffff;
   margin-bottom: 16px;
 }
+
+.footer-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-svg {
+  fill: #f4f4fd;
+}
