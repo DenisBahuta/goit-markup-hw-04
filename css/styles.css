@@ -345,7 +345,7 @@ address {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-item:hover .section-four-text {
+.portfolio-item:hover .portfolio-about {
   transform: translateY(0%);
 }
 
@@ -371,7 +371,7 @@ address {
   margin-bottom: 8px;
 }
 
-.section-four-text {
+.portfolio-about {
   position: absolute;
   top: 0;
   font-size: 16px;
